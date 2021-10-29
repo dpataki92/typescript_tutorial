@@ -25,3 +25,9 @@ carMakers.map((car: string): string => {
 const importantDates = [new Date(), '2030-10-10'];
 const importanDates2: (Date | string)[] = [];
 importantDates.push(200);
+
+// Tuples
+const drink: [string, boolean, number] = ['brown', true, 5]
+
+type Drink = [string, boolean, number];
+const tea: Drink = ['brown', true, 3]
